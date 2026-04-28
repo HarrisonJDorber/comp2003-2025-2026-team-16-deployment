@@ -59,7 +59,7 @@ def delete_item(table, item_id):
     id_column = allowed_tables[table]
     conn = get_connection()
     cursor = conn.cursor(cursor_factory=RealDictCursor)
-    cursor.execute(f"DELETE FROM {table} WHERE {id_column} = %s", (item_id,))
+    cursor.execute(f'DELETE FROM "{table}" WHERE {id_column} = %s', (item_id,))
     conn.commit()
     conn.close()
 
