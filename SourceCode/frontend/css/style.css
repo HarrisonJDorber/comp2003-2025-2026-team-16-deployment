@@ -6,7 +6,7 @@ body {
     color: #24d3d3; 
     font-family: "Science Gothic", sans-serif;
     font-weight: 200;
-    text-shadow: 0 0 2px #3b2cde, 0 0 4px #589eef, 0 0 8px #bcd5db;
+    text-shadow: 0 0 1px #3b2cde, 0 0 2px #589eef, 0 0 3px #bcd5db;
     background-image: radial-gradient(rgba(45, 90, 140, 0.35) 0.5px, transparent 0.5px);
     background-size: 4px 5px;
     background-repeat: repeat;
@@ -41,7 +41,7 @@ h2 {
   align-items: center; 
   justify-content: center;
   border: 1px solid #00E5FF;
-  box-shadow: 0 0 2px #7DE3FF, 0 0 4px #7DE3FF, 0 0 8px #7DE3FF;
+  box-shadow: 0 0 1px #7DE3FF, 0 0 2px #7DE3FF, 0 0 4px #7DE3FF;
   border-radius: 10px;
   width: 600px;
   height: 300px;
@@ -54,7 +54,7 @@ h2 {
   color: white;
   border: 1px solid #00E5FF;
   border-radius: 6px;
-  box-shadow: 0 0 2px #7DE3FF, 0 0 4px #7DE3FF, 0 0 8px #7DE3FF;
+  box-shadow: 0 0 1px #7DE3FF, 0 0 2px #7DE3FF, 0 0 4px #7DE3FF;
 }
 
 #password {
@@ -64,7 +64,7 @@ h2 {
   color: white;
   border: 1px solid #00E5FF;
   border-radius: 6px;
-  box-shadow: 0 0 2px #7DE3FF, 0 0 4px #7DE3FF, 0 0 8px #7DE3FF;
+  box-shadow: 0 0 1px #7DE3FF, 0 0 2px #7DE3FF, 0 0 4px #7DE3FF;
 }
 
 .formRow {
@@ -169,7 +169,7 @@ h2 {
     padding: 20px;
     border: 2px solid #00E5FF;
     border-radius: 7px;
-    box-shadow: 0 0 2px #7DE3FF, 0 0 4px #7DE3FF, 0 0 8px #7DE3FF;
+    box-shadow: 0 0 1px #7DE3FF, 0 0 2px #7DE3FF, 0 0 4px #7DE3FF;
     background-color: rgba(255, 255, 255, 0.05);
     color: white;
     outline: none;
@@ -207,7 +207,7 @@ h2 {
 
 .navBtn:hover {
   transform: scale(1.06);
-  box-shadow: 0 6px 18px rgba(0,229,255,0.06), 0 0 6px #7DE3FF;
+  box-shadow: 0 6px 18px rgba(0,229,255,0.06), 0 0 3px #7DE3FF;
 }
 
 .navDropdown {
@@ -223,7 +223,7 @@ h2 {
   background-color: #0D1117;
   border: 1px solid #00E5FF;
   border-radius: 8px;
-  box-shadow: 0 0 8px #7DE3FF;
+  box-shadow: 0 0 4px #7DE3FF;
   min-width: 180px;
   z-index: 100;
   flex-direction: column;
@@ -250,7 +250,7 @@ h2 {
 .navBtn.active {
   transform: scale(1.08);
   background-color: rgba(0, 229, 255, 0.12);
-  box-shadow: 0 8px 22px rgba(0,229,255,0.12), 0 0 8px #7DE3FF, inset 0 0 6px rgba(0,229,255,0.05);
+  box-shadow: 0 8px 22px rgba(0,229,255,0.12), 0 0 4px #7DE3FF, inset 0 0 6px rgba(0,229,255,0.05);
 }
 
 #detailsContainer {
@@ -267,7 +267,7 @@ h2 {
   gap: 40px;
   border: 1px solid #00E5FF;
   border-radius: 10px;
-  box-shadow: 0 0 12px #7DE3FF;
+  box-shadow: 0 0 6px #7DE3FF;
   padding: 30px 40px;
   margin-top: 20px;
   max-width: 800px;
@@ -281,7 +281,7 @@ h2 {
   object-fit: cover;
   border: 1px solid #00E5FF;
   border-radius: 6px;
-  box-shadow: 0 0 8px #7DE3FF;
+  box-shadow: 0 0 4px #7DE3FF;
 }
 
 .fileFields {
@@ -345,7 +345,7 @@ h2 {
 
 #backBtn:hover {
   transform: scale(1.06);
-  box-shadow: 0 6px 18px rgba(0,229,255,0.06), 0 0 6px #7DE3FF;
+  box-shadow: 0 6px 18px rgba(0,229,255,0.06), 0 0 3px #7DE3FF;
 }
 
 .tab-button {
@@ -366,7 +366,7 @@ h2 {
 
 .tab-button:hover {
   transform: scale(1.06);
-  box-shadow: 0 6px 18px rgba(0,229,255,0.06), 0 0 6px #7DE3FF;
+  box-shadow: 0 6px 18px rgba(0,229,255,0.06), 0 0 3px #7DE3FF;
 }
 
 #admin-panel-main {
@@ -419,7 +419,7 @@ h2 {
     color: white;
     border: 1px solid #00E5FF;
     border-radius: 6px;
-    box-shadow: 0 0 2px #7DE3FF, 0 0 4px #7DE3FF, 0 0 8px #7DE3FF;
+    box-shadow: 0 0 1px #7DE3FF, 0 0 2px #7DE3FF, 0 0 4px #7DE3FF;
     font-family: "Science Gothic", sans-serif;
     font-size: 15px;
     width: 100%;
@@ -466,7 +466,7 @@ h2 {
   color: white;
   border: 1px solid #00E5FF;
   border-radius: 6px;
-  box-shadow: 0 0 2px #7DE3FF, 0 0 4px #7DE3FF, 0 0 8px #7DE3FF;
+  box-shadow: 0 0 1px #7DE3FF, 0 0 2px #7DE3FF, 0 0 4px #7DE3FF;
 }
 
 #agent_description{
@@ -476,7 +476,7 @@ h2 {
   color: white;
   border: 1px solid #00E5FF;
   border-radius: 6px;
-  box-shadow: 0 0 2px #7DE3FF, 0 0 4px #7DE3FF, 0 0 8px #7DE3FF;
+  box-shadow: 0 0 1px #7DE3FF, 0 0 2px #7DE3FF, 0 0 4px #7DE3FF;
 }
 
 #location_name{
@@ -486,7 +486,7 @@ h2 {
   color: white;
   border: 1px solid #00E5FF;
   border-radius: 6px;
-  box-shadow: 0 0 2px #7DE3FF, 0 0 4px #7DE3FF, 0 0 8px #7DE3FF;
+  box-shadow: 0 0 1px #7DE3FF, 0 0 2px #7DE3FF, 0 0 4px #7DE3FF;
 }
 
 #location_description{
@@ -496,7 +496,7 @@ h2 {
   color: white;
   border: 1px solid #00E5FF;
   border-radius: 6px;
-  box-shadow: 0 0 2px #7DE3FF, 0 0 4px #7DE3FF, 0 0 8px #7DE3FF;
+  box-shadow: 0 0 1px #7DE3FF, 0 0 2px #7DE3FF, 0 0 4px #7DE3FF;
 }
 
 #rank{
@@ -506,7 +506,7 @@ h2 {
   color: white;
   border: 1px solid #00E5FF;
   border-radius: 6px;
-  box-shadow: 0 0 2px #7DE3FF, 0 0 4px #7DE3FF, 0 0 8px #7DE3FF;
+  box-shadow: 0 0 1px #7DE3FF, 0 0 2px #7DE3FF, 0 0 4px #7DE3FF;
 }
 
 .min_rank{
@@ -516,7 +516,7 @@ h2 {
   color: white;
   border: 1px solid #00E5FF;
   border-radius: 6px;
-  box-shadow: 0 0 2px #7DE3FF, 0 0 4px #7DE3FF, 0 0 8px #7DE3FF;
+  box-shadow: 0 0 1px #7DE3FF, 0 0 2px #7DE3FF, 0 0 4px #7DE3FF;
 }
 
 .create{
@@ -541,7 +541,7 @@ h2 {
   color: white;
   border: 1px solid #00E5FF;
   border-radius: 6px;
-  box-shadow: 0 0 2px #7DE3FF, 0 0 4px #7DE3FF, 0 0 8px #7DE3FF;
+  box-shadow: 0 0 1px #7DE3FF, 0 0 2px #7DE3FF, 0 0 4px #7DE3FF;
 }
 
 #agentChat {
@@ -553,7 +553,7 @@ h2 {
   background-color: rgba(13, 17, 23, 0.95);
   border: 1px solid #00E5FF;
   border-radius: 10px;
-  box-shadow: 0 0 6px #7DE3FF, 0 0 12px #7DE3FF;
+  box-shadow: 0 0 3px #7DE3FF, 0 0 6px #7DE3FF;
   display: flex;
   flex-direction: column;
   z-index: 1000;
